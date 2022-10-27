@@ -1,5 +1,5 @@
 {% set name = "pylustrator" %}
-{% set version = "1.2" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylustrator-{{ version }}.tar.gz
-  sha256: 8e7f4d1150bc8d4930a3919008dd8f60a0160d1af0e7f05429b0e7a6caf73dc1
+  sha256: 3d800d9f1fab4938a3f64459123918449d2cd42d0b8904e452bf7eff7cd46714
 
 build:
   noarch: python
