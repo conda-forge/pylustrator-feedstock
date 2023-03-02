@@ -1,11 +1,11 @@
-About pylustrator
-=================
+About pylustrator-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pylustrator-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rgerum/pylustrator
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pylustrator-feedstock/blob/main/LICENSE.txt)
 
 Summary: Adds interactivity to arrange panels in matplotlib
 
