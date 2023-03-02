@@ -16,17 +16,18 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8,<4.0
+    - poetry-core
     - pip
   run:
-    - python >=3.6
-    - natsort
-    - numpy
-    - matplotlib-base
-    - pyqt
-    - qtpy
-    - qtawesome
-    - scikit-image
+    - python >=3.8,<4.0
+    - natsort >=2.0.0
+    - numpy >=1.0.3
+    - matplotlib-base >=2.0.2
+    - pyqt >=5.6
+    - qtawesome >=0.5.0
+    - scikit-image >=0.7.0
+    # - qtpy
 
 test:
   imports:
